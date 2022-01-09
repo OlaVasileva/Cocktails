@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		D357250F2786E7E500AE5553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357250E2786E7E500AE5553 /* AppDelegate.swift */; };
 		D35725112786E7E500AE5553 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35725102786E7E500AE5553 /* SceneDelegate.swift */; };
-		D35725132786E7E500AE5553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35725122786E7E500AE5553 /* ViewController.swift */; };
 		D35725162786E7E500AE5553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35725142786E7E500AE5553 /* Main.storyboard */; };
 		D35725182786E7E600AE5553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35725172786E7E600AE5553 /* Assets.xcassets */; };
 		D357251B2786E7E600AE5553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35725192786E7E600AE5553 /* LaunchScreen.storyboard */; };
+		D3C3458027870EEC001966AD /* CocktailsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3457F27870EEC001966AD /* CocktailsListViewController.swift */; };
+		D3C3458227872E9B001966AD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3458127872E9B001966AD /* TabBarViewController.swift */; };
+		D3C3458427873E25001966AD /* DetailDeveloperListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3458327873E25001966AD /* DetailDeveloperListTableViewController.swift */; };
+		D3C3458627874498001966AD /* DescriptionsCocktailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3458527874498001966AD /* DescriptionsCocktailsViewController.swift */; };
+		D3C3458827875BD4001966AD /* CocktailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3458727875BD4001966AD /* CocktailModel.swift */; };
+		D3C3458D278B006B001966AD /* IngridientsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3458C278B006B001966AD /* IngridientsListTableViewController.swift */; };
+		D3C3458F278B00B5001966AD /* IngridientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3458E278B00B5001966AD /* IngridientViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D357250B2786E7E500AE5553 /* Cocktails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocktails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D357250E2786E7E500AE5553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D35725102786E7E500AE5553 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D35725122786E7E500AE5553 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D35725152786E7E500AE5553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35725172786E7E600AE5553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D357251A2786E7E600AE5553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D357251C2786E7E600AE5553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C3457F27870EEC001966AD /* CocktailsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailsListViewController.swift; sourceTree = "<group>"; };
+		D3C3458127872E9B001966AD /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		D3C3458327873E25001966AD /* DetailDeveloperListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDeveloperListTableViewController.swift; sourceTree = "<group>"; };
+		D3C3458527874498001966AD /* DescriptionsCocktailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionsCocktailsViewController.swift; sourceTree = "<group>"; };
+		D3C3458727875BD4001966AD /* CocktailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailModel.swift; sourceTree = "<group>"; };
+		D3C3458C278B006B001966AD /* IngridientsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngridientsListTableViewController.swift; sourceTree = "<group>"; };
+		D3C3458E278B00B5001966AD /* IngridientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngridientViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,61 @@
 		D357250D2786E7E500AE5553 /* Cocktails */ = {
 			isa = PBXGroup;
 			children = (
-				D357250E2786E7E500AE5553 /* AppDelegate.swift */,
-				D35725102786E7E500AE5553 /* SceneDelegate.swift */,
-				D35725122786E7E500AE5553 /* ViewController.swift */,
-				D35725142786E7E500AE5553 /* Main.storyboard */,
-				D35725172786E7E600AE5553 /* Assets.xcassets */,
-				D35725192786E7E600AE5553 /* LaunchScreen.storyboard */,
-				D357251C2786E7E600AE5553 /* Info.plist */,
+				D3C3458A278764FC001966AD /* ViewControllers */,
+				D3C345772786F0D7001966AD /* Models */,
+				D3C345792786F103001966AD /* StoryBoards */,
+				D3C345892787634E001966AD /* SupportFiles */,
+				D3C3457B2786F12A001966AD /* Resources */,
 			);
 			path = Cocktails;
+			sourceTree = "<group>";
+		};
+		D3C345772786F0D7001966AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3C3458727875BD4001966AD /* CocktailModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3C345792786F103001966AD /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				D35725142786E7E500AE5553 /* Main.storyboard */,
+				D35725192786E7E600AE5553 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		D3C3457B2786F12A001966AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D35725172786E7E600AE5553 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D3C345892787634E001966AD /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D357251C2786E7E600AE5553 /* Info.plist */,
+				D357250E2786E7E500AE5553 /* AppDelegate.swift */,
+				D35725102786E7E500AE5553 /* SceneDelegate.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		D3C3458A278764FC001966AD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3C3457F27870EEC001966AD /* CocktailsListViewController.swift */,
+				D3C3458127872E9B001966AD /* TabBarViewController.swift */,
+				D3C3458527874498001966AD /* DescriptionsCocktailsViewController.swift */,
+				D3C3458327873E25001966AD /* DetailDeveloperListTableViewController.swift */,
+				D3C3458C278B006B001966AD /* IngridientsListTableViewController.swift */,
+				D3C3458E278B00B5001966AD /* IngridientViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35725132786E7E500AE5553 /* ViewController.swift in Sources */,
+				D3C3458227872E9B001966AD /* TabBarViewController.swift in Sources */,
 				D357250F2786E7E500AE5553 /* AppDelegate.swift in Sources */,
+				D3C3458827875BD4001966AD /* CocktailModel.swift in Sources */,
+				D3C3458427873E25001966AD /* DetailDeveloperListTableViewController.swift in Sources */,
+				D3C3458F278B00B5001966AD /* IngridientViewController.swift in Sources */,
+				D3C3458627874498001966AD /* DescriptionsCocktailsViewController.swift in Sources */,
 				D35725112786E7E500AE5553 /* SceneDelegate.swift in Sources */,
+				D3C3458D278B006B001966AD /* IngridientsListTableViewController.swift in Sources */,
+				D3C3458027870EEC001966AD /* CocktailsListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +355,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PH742CML4S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Cocktails/Info.plist;
+				INFOPLIST_FILE = Cocktails/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +383,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PH742CML4S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Cocktails/Info.plist;
+				INFOPLIST_FILE = Cocktails/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
