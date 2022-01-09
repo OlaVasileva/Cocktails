@@ -31,11 +31,11 @@ extension Cocktail {
         let rum = Ingridient(title: "Bacardi", description: "Ром насыщенного золотого цвета крепостью 75,5%.")
         let sugar = Ingridient(title: "Sugar", description: "Водорастворимые углеводы со сладким вкусом, альтернативное название сахарозы.")
         let campari = Ingridient(title: "Campari", description: "Uорький ликер (биттер) красного цвета на основе ароматических трав и фруктов.")
-        let sweetRedVermut = Ingridient(title: "Martiny Rosso", description: "Крепленный винный аперитив, ароматизированный с помощью трав, специй, цветов или кореньев.")
+        let sweetRedVermut = Ingridient(title: "Martini Rosso", description: "Крепленный винный аперитив, ароматизированный с помощью трав, специй, цветов или кореньев.")
         let pineappleJuice = Ingridient(title: "Pineapple", description: "100% juce.")
         let coconutJuice = Ingridient(title: "Coconut", description: "100% juce.")
         let vodka = Ingridient(title: "Absolut", description: "Этот супер-премиальный спиртной напиток крепостью 40-50° отличается деликатным и мягким вкусом.")
-        let tomatoJuice = Ingridient(title: "Tomato", description: "100% juce.")
+        let tomatoJuice = Ingridient(title: "Tomato juice", description: "100% juce.")
         let carbonatedWater = Ingridient(title: "Water", description: "Напиток, состоящий из обычной или минеральной воды, которую насытили углекислым газом.")
         let mint = Ingridient(title: "Mint", description: "Травянистое растение; вид рода Мята семейства Яснотковые.")
         

@@ -41,11 +41,11 @@ class IngridientsListTableViewController: UITableViewController {
         
         var content = cell.defaultContentConfiguration()
         content.text = "\(ingridientTuple.0.title), \(ingridientTuple.1) мл"
-        //content.secondaryText = cocktail.ingridients
+        content.textProperties.color = .white
         content.image = UIImage(named: ingridientTuple.0.title)
         content.imageProperties.cornerRadius = tableView.rowHeight / 2
         cell.contentConfiguration = content
-        
+        cell.backgroundColor = .black
         return cell
     }
     

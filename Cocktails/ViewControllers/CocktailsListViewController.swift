@@ -14,6 +14,7 @@ class CocktailsListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.rowHeight = 80
+        tableView.backgroundColor = .black
         
     }
 
@@ -36,11 +37,15 @@ class CocktailsListViewController: UITableViewController {
         
         var content = cell.defaultContentConfiguration()
         content.text = cocktail.title
+        content.textProperties.color = .white
+        
         //content.secondaryText = cocktail.ingridients
         content.image = UIImage(named: cocktail.title)
         content.imageProperties.cornerRadius = tableView.rowHeight / 2
+        
         cell.contentConfiguration = content
-
+        cell.backgroundColor = .black
+        
         return cell
     }
   
