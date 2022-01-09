@@ -13,8 +13,6 @@
 		D35725182786E7E600AE5553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35725172786E7E600AE5553 /* Assets.xcassets */; };
 		D357251B2786E7E600AE5553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35725192786E7E600AE5553 /* LaunchScreen.storyboard */; };
 		D3C3458027870EEC001966AD /* CocktailsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3457F27870EEC001966AD /* CocktailsListViewController.swift */; };
-		D3C3458227872E9B001966AD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3458127872E9B001966AD /* TabBarViewController.swift */; };
-		D3C3458427873E25001966AD /* DetailDeveloperListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3458327873E25001966AD /* DetailDeveloperListTableViewController.swift */; };
 		D3C3458627874498001966AD /* DescriptionsCocktailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3458527874498001966AD /* DescriptionsCocktailsViewController.swift */; };
 		D3C3458827875BD4001966AD /* CocktailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3458727875BD4001966AD /* CocktailModel.swift */; };
 		D3C3458D278B006B001966AD /* IngridientsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3458C278B006B001966AD /* IngridientsListTableViewController.swift */; };
@@ -30,8 +28,6 @@
 		D357251A2786E7E600AE5553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D357251C2786E7E600AE5553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3C3457F27870EEC001966AD /* CocktailsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailsListViewController.swift; sourceTree = "<group>"; };
-		D3C3458127872E9B001966AD /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
-		D3C3458327873E25001966AD /* DetailDeveloperListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDeveloperListTableViewController.swift; sourceTree = "<group>"; };
 		D3C3458527874498001966AD /* DescriptionsCocktailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionsCocktailsViewController.swift; sourceTree = "<group>"; };
 		D3C3458727875BD4001966AD /* CocktailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailModel.swift; sourceTree = "<group>"; };
 		D3C3458C278B006B001966AD /* IngridientsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngridientsListTableViewController.swift; sourceTree = "<group>"; };
@@ -116,9 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				D3C3457F27870EEC001966AD /* CocktailsListViewController.swift */,
-				D3C3458127872E9B001966AD /* TabBarViewController.swift */,
 				D3C3458527874498001966AD /* DescriptionsCocktailsViewController.swift */,
-				D3C3458327873E25001966AD /* DetailDeveloperListTableViewController.swift */,
 				D3C3458C278B006B001966AD /* IngridientsListTableViewController.swift */,
 				D3C3458E278B00B5001966AD /* IngridientViewController.swift */,
 			);
@@ -196,10 +190,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C3458227872E9B001966AD /* TabBarViewController.swift in Sources */,
 				D357250F2786E7E500AE5553 /* AppDelegate.swift in Sources */,
 				D3C3458827875BD4001966AD /* CocktailModel.swift in Sources */,
-				D3C3458427873E25001966AD /* DetailDeveloperListTableViewController.swift in Sources */,
 				D3C3458F278B00B5001966AD /* IngridientViewController.swift in Sources */,
 				D3C3458627874498001966AD /* DescriptionsCocktailsViewController.swift in Sources */,
 				D35725112786E7E500AE5553 /* SceneDelegate.swift in Sources */,

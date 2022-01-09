@@ -18,7 +18,7 @@ class DescriptionsCocktailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = cocktail.title
+        title = cocktail.title
         method.text = cocktail.method
         garnish.text = cocktail.garnish
         descriptions.text = cocktail.description

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "74F94F96-19EA-498B-92D4-2F9AB7967F3E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D809E42-6D3C-4E21-9DEA-B26F847EA30C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cocktails/ViewControllers/CocktailsListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F919C2CC-061F-4DE4-A2B3-F27470CAE5FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cocktails/ViewControllers/CocktailsListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E395BA3-50D8-4ED9-BDA7-32AEEEAA0990"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cocktails/ViewControllers/DescriptionsCocktailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F620FBD-55DF-437D-861B-96D79E8249CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cocktails/ViewControllers/DescriptionsCocktailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "DescriptionsCocktailsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7F620FBD-55DF-437D-861B-96D79E8249CB - 67e192725e23a931"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cocktails.DescriptionsCocktailsViewController.cocktail.getter : Swift.Optional&lt;Cocktails.Cocktail&gt;"
+                  moduleName = "Cocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasilevaolga/Documents/Cocktails/Cocktails/ViewControllers/DescriptionsCocktailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "7F620FBD-55DF-437D-861B-96D79E8249CB - 1c760ef2e7c3575"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cocktails.DescriptionsCocktailsViewController.cocktail.setter : Swift.Optional&lt;Cocktails.Cocktail&gt;"
+                  moduleName = "Cocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasilevaolga/Documents/Cocktails/Cocktails/ViewControllers/DescriptionsCocktailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "7F620FBD-55DF-437D-861B-96D79E8249CB - 1e40774af73b42c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cocktails.DescriptionsCocktailsViewController.cocktail.modify : Swift.Optional&lt;Cocktails.Cocktail&gt;"
+                  moduleName = "Cocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasilevaolga/Documents/Cocktails/Cocktails/ViewControllers/DescriptionsCocktailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "7F620FBD-55DF-437D-861B-96D79E8249CB - d019398c2cfebcfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cocktails.DescriptionsCocktailsViewController.cocktail.modify : Swift.Optional&lt;Cocktails.Cocktail&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Cocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasilevaolga/Documents/Cocktails/Cocktails/ViewControllers/DescriptionsCocktailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "7F620FBD-55DF-437D-861B-96D79E8249CB - 3c5658c954539ae6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cocktails.DescriptionsCocktailsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Cocktails.DescriptionsCocktailsViewController"
+                  moduleName = "Cocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasilevaolga/Documents/Cocktails/Cocktails/ViewControllers/DescriptionsCocktailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "7F620FBD-55DF-437D-861B-96D79E8249CB - 33b3e5fbc27f10a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cocktails.DescriptionsCocktailsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Cocktails.DescriptionsCocktailsViewController&gt;"
+                  moduleName = "Cocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasilevaolga/Documents/Cocktails/Cocktails/ViewControllers/DescriptionsCocktailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2665ED6-2C81-4FD9-BC72-837CD21081E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cocktails/ViewControllers/CocktailsListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

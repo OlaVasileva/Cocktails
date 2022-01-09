@@ -39,7 +39,6 @@ class CocktailsListViewController: UITableViewController {
         content.text = cocktail.title
         content.textProperties.color = .white
         
-        //content.secondaryText = cocktail.ingridients
         content.image = UIImage(named: cocktail.title)
         content.imageProperties.cornerRadius = tableView.rowHeight / 2
         
@@ -51,31 +50,15 @@ class CocktailsListViewController: UITableViewController {
   
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        //let cocktail = cocktailsList[indexPath.row]
-        //performSegue(withIdentifier: "showDetails", sender: cocktail)
     }
     
-//    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
-//        .none
-//    }
-    
-//    override func tableView(_ tableView: UITableView, shouldIndentWhileEditingRowAt indexPath: IndexPath) -> Bool {
-//        false
-//    }
-    
-//    override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
-//        let currentTrack = cocktailsList.remove(at: sourceIndexPath.row)
-//        cocktailsList.insert(currentTrack, at: destinationIndexPath.row)
-//    }
    // MARK: - Navigation
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let indexPath = tableView.indexPathForSelectedRow else {return}
+        guard let indexPath = tableView.indexPathForSelectedRow else { return }
         let cocktail = cocktailsList[indexPath.row]
         
-        guard let tabBarConroller = segue.destination as? UITabBarController else {
-            return
-        }
+        guard let tabBarConroller = segue.destination as? UITabBarController else { return }
         let viewControllers = tabBarConroller.viewControllers!
         for viewController in viewControllers {
             if let DescriptionsCocktailsVC = viewController as? DescriptionsCocktailsViewController{
